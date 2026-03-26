@@ -26,7 +26,7 @@ docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:la
 ### 2. Install Dependencies
 Run the following command to install the necessary Node.js dependencies (`ioredis`):
 ```bash
-npm install
+npm install ioredis
 ```
 
 ### 3. Run the Playground Scripts
