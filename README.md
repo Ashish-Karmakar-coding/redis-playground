@@ -16,6 +16,7 @@ This playground provides ready-to-use scripts covering real-world operations for
 - `hashs.js` — Demonstrates operations on Hashes (`HSET`, `HGETALL`, `HDEL`, `HEXISTS`, `HINCRBY`, etc.).
 - `redis_streams.js` — Demonstrates operations on Streams & Consumer Groups (`XADD`, `XLEN`, `XRANGE`, `XREAD`, `XGROUP`, `XACK`, etc.).
 - `geospatial.js` — Demonstrates Geospatial operations (`GEOADD`, `GEOPOS`, `GEODIST`, `GEORADIUS`).
+- `pubsub.js` — Demonstrates Real-time Messaging with Publishers & Subscribers (`SUBSCRIBE`, `PUBLISH`).
 
 ## How to Run
 
@@ -40,4 +41,5 @@ node sets.js
 node hashs.js
 node redis_streams.js
 node geospatial.js
+node pubsub.js
 ```
