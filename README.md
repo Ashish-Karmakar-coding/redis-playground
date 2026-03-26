@@ -14,6 +14,7 @@ This playground provides ready-to-use scripts covering real-world operations for
 - `lists.js` — Demonstrates operations on Lists (`LPUSH`, `RPUSH`, `LRANGE`, `LPOP`, `LLEN`, etc.).
 - `sets.js` — Demonstrates operations on Sets (`SADD`, `SMEMBERS`, `SISMEMBER`, `SINTER`, `SREM`, etc.).
 - `hashs.js` — Demonstrates operations on Hashes (`HSET`, `HGETALL`, `HDEL`, `HEXISTS`, `HINCRBY`, etc.).
+- `redis_streams.js` — Demonstrates operations on Streams & Consumer Groups (`XADD`, `XLEN`, `XRANGE`, `XREAD`, `XGROUP`, `XACK`, etc.).
 
 ## How to Run
 
@@ -36,4 +37,5 @@ node string.js
 node lists.js
 node sets.js
 node hashs.js
+node redis_streams.js
 ```
